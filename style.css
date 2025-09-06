@@ -1,0 +1,168 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.d{
+   background: Black;
+   height: 15vh;
+   border-radius: 1rem;
+   padding-right: 1rem;
+   margin-right: 1rem;
+}
+.u{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+
+
+}
+.u li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.u li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.u li a:hover{
+    color: rgba(179, 255, 0, 0.637);
+    transition: 1s;
+}
+.r{
+  height: auto;
+  
+
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(179, 255, 0, 0.5),
+                    0 0 20px rgba(179, 255, 0, 0.4),
+                    0 0 30px rgba(179, 255, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(179, 255, 0, 0.8),
+                    0 0 40px rgba(179, 255, 0, 0.6),
+                    0 0 60px rgba(179, 255, 0, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(179, 255, 0, 0.5),
+                    0 0 20px rgba(179, 255, 0, 0.4),
+                    0 0 30px rgba(179, 255, 0, 0.3);
+    }
+}
+
+.c-image {
+    display: block;          /* make image block-level */
+    margin: 2rem auto;       /* top/bottom = 2rem, left/right = auto */
+    border-radius: 13rem;
+    overflow: hidden;
+    animation: glow 3s infinite;
+}
+
+.t {
+    height: 15vh;
+    border-radius: 1rem;
+
+    display: flex;          /* make it a flex container */
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+}
+
+.s {
+    font-size: 2.6rem;
+    color: rgb(8, 184, 113);
+    text-transform: uppercase;
+    margin: 0; 
+    padding-top: -4rem;             /* remove default margin */
+}
+.s span{
+    color: red;
+}
+.bot{
+    background: black;
+    border-radius: 1.4rem;
+    height: auto;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.nb{
+    margin-left: 1rem;
+    margin-right: 2rem;
+   font-size: 1.9rem;
+   color: white;
+   justify-content: center;
+       /* center vertically */
+}
+.nb span{
+    color: rgb(251, 255, 0);
+}
+.v {
+    background: burlywood;
+    border-radius: 1.4rem;
+    width: 80%;           /* optional: control box width */
+    margin: 2rem auto;    /* center horizontally */
+    padding: 1rem;
+    text-align: center;
+    height: 34vh;   /* center inner text */
+}
+ .qa{
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+    margin: 0; 
+    padding-top: -4rem;
+ }
+.aq {
+    list-style-type: disc;     /* keeps bullet points */
+    padding: 0;                /* remove default padding */
+    margin: 0 auto;            /* center horizontally */
+    width: fit-content;        /* shrink width to fit content */
+    font-size: 1.3rem;         /* optional size */
+    text-align: center;
+    /* center the text inside bullets */
+}
+
+.aq li {
+    margin: 0.5rem 0;          /* space between list items */
+}
+  @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.qaa{
+    animation: rotate 6s ease-in;
+    font-size: 6rem;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+.qaa:hover{
+    animation: rotate 2s ease-in;
+    color: rgb(68, 0, 255);
+    transition: 1s;
+}
+.btn {
+    display: block;            /* make the button block-level */
+    margin: 2rem auto;         /* top/bottom = 2rem, left/right = auto */
+    background: rgb(208, 255, 0);
+    border-radius: 1.4rem;
+    padding: 1rem 2rem;        /* top/bottom, left/right */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border: none;              /* remove default border */
+    cursor: pointer;           /* pointer on hover */
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgb(0, 26, 255);
+    color: rgb(255, 255, 255);
+}
